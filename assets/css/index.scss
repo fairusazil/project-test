@@ -1,0 +1,18 @@
+@import "variable";
+
+h1 {
+  @extend %h1-style;
+  font-family: $primary-font;
+}
+
+h1:hover {
+  @extend %h1-style-hover;
+}
+
+p {
+  font-family: $primary-font;
+}
+
+p:hover {
+  @extend %h1-style-hover;
+}

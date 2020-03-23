@@ -1,20 +1,12 @@
-h1 {
+$primary-font: monospace;
+%h1-style {
   color: white;
   background-color: blue;
   font-size: 100px;
 }
 
-h1:hover, p:hover {
+%h1-style-hover {
   color: white;
   background-color: brown;
   font-size: 50px;
 }
-
-h1 {
-  font-family: monospace;
-}
-
-p {
-  font-family: monospace;
-}
-/*# sourceMappingURL=index.css.map */
